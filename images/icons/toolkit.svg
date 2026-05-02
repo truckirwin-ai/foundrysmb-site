@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#11100c"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#ff5a1f" stroke-width="0.75" opacity="0.55"/>
+  <!-- Hammer (diagonal up-right): handle + head -->
+  <path d="M22 44 L40 26" stroke="#f5f1e8" stroke-width="3" stroke-linecap="square"/>
+  <path d="M37 18 L46 18 L48 28 L40 30 Z" fill="#f5f1e8"/>
+  <!-- Tong (diagonal up-left): two arms meeting at a pivot -->
+  <path d="M42 44 L26 28" stroke="#f5f1e8" stroke-width="3" stroke-linecap="square"/>
+  <path d="M22 24 L26 28 L24 20" fill="none" stroke="#f5f1e8" stroke-width="3" stroke-linejoin="miter"/>
+  <circle cx="32" cy="34" r="2" fill="#ffd35a"/>
+  <circle cx="32" cy="56.5" r="1.6" fill="#ffd35a"/>
+</svg>

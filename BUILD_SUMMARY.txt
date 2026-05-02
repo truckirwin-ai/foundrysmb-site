@@ -1,0 +1,68 @@
+FOUNDRY SMB WEBSITE - CURRENT BUILD SUMMARY
+
+Status:
+  Reconciled static multi-page website.
+
+Current positioning:
+  Tools, coaching, and playbooks for small businesses going AI-first.
+
+Core architecture:
+  Static HTML.
+  One active stylesheet: design-system.css.
+  No framework.
+  No build step.
+  No required JavaScript bundle.
+  Netlify-ready contact form.
+
+Primary pages:
+  index.html
+  roadmap.html
+  toolkit.html
+  coaching.html
+  how-it-works.html
+  about.html
+  contact.html
+  thank-you.html
+  support.html
+  terms.html
+  privacy.html
+  refunds.html
+  acceptable-use.html
+  license.html
+
+Compatibility redirects:
+  assessment.html -> roadmap.html
+  products.html -> toolkit.html
+  consulting.html -> coaching.html
+  bid-automation.html -> toolkit.html
+  context-vaults.html -> toolkit.html
+  permitting-navigator.html -> toolkit.html
+  autonomous-departments.html -> toolkit.html
+  industries.html -> about.html
+  case-studies.html -> about.html
+
+Deploy helpers:
+  _redirects
+  robots.txt
+  sitemap.xml
+
+Local server:
+  cd "/Users/truckirwin/Desktop/Foundry SMB/foundrysmb-site"
+  python3 -m http.server 8000
+
+Open:
+  http://localhost:8000
+
+Form:
+  contact.html uses Netlify Forms with form name access-request.
+  Local submit lands on thank-you.html.
+  Deployed Netlify submit stores the submission.
+
+Design:
+  Dark foundry-floor editorial system.
+  Source Serif 4, Inter Tight, JetBrains Mono.
+  Molten orange, heat yellow, cream, plum accents.
+  Glass cards, bento layout, grain texture, treated images.
+
+Known production note:
+  Several hero images use remote Unsplash URLs. For final hardening, copy production-critical images into images/ and reference them locally.

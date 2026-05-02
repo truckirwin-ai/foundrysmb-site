@@ -1,0 +1,89 @@
+FOUNDRY SMB WEBSITE - FILES MANIFEST
+
+CANONICAL SITE FILES
+
+  index.html
+    Homepage. Frames the AI Revenue Sprint offer.
+
+  roadmap.html
+    AI Revenue Sprint product page.
+
+  toolkit.html
+    Foundry Toolkit product page.
+
+  coaching.html
+    Operator Coaching page for 1:1 and cohort support.
+
+  how-it-works.html
+    Engagement model and offer sequencing.
+
+  about.html
+    Founder and company credibility page.
+
+  contact.html
+    Netlify sprint application form.
+
+  thank-you.html
+    Post-submit confirmation page.
+
+  support.html
+    Support, billing, and account help.
+
+  terms.html
+    Terms of Service.
+
+  privacy.html
+    Privacy Policy.
+
+  refunds.html
+    Refunds and Cancellation Policy.
+
+  acceptable-use.html
+    Acceptable Use Policy.
+
+  license.html
+    Subscription License.
+
+  icons.html
+    Internal icon reference page.
+
+  design-system.css
+    Active stylesheet and design system.
+
+  _redirects
+    Netlify redirects for old URLs.
+
+  robots.txt
+    Search crawler directives.
+
+  sitemap.xml
+    Public URL inventory.
+
+  images/
+    Local artwork and icons.
+
+LEGACY COMPATIBILITY PAGES
+
+  assessment.html -> roadmap.html
+  products.html -> toolkit.html
+  consulting.html -> coaching.html
+  bid-automation.html -> toolkit.html
+  context-vaults.html -> toolkit.html
+  permitting-navigator.html -> toolkit.html
+  autonomous-departments.html -> toolkit.html
+  industries.html -> about.html
+  case-studies.html -> about.html
+
+DEPLOYMENT
+
+  Static host compatible.
+  Netlify recommended for form handling.
+  No build command.
+  Publish this directory.
+
+LOCAL TEST
+
+  cd "/Users/truckirwin/Desktop/Foundry SMB/foundrysmb-site"
+  python3 -m http.server 8000
+
+  Open http://localhost:8000

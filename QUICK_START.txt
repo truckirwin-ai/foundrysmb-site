@@ -1,0 +1,66 @@
+FOUNDRY SMB WEBSITE - QUICK START
+
+Current site:
+Tools, coaching, and playbooks for small businesses going AI-first.
+
+Run locally:
+
+  cd "/Users/truckirwin/Desktop/Foundry SMB/foundrysmb-site"
+  python3 -m http.server 8000
+
+Open:
+
+  http://localhost:8000
+
+Canonical assets:
+
+  index.html
+  roadmap.html
+  toolkit.html
+  coaching.html
+  how-it-works.html
+  about.html
+  contact.html
+  thank-you.html
+  support.html
+  terms.html
+  privacy.html
+  refunds.html
+  acceptable-use.html
+  license.html
+  design-system.css
+  images/
+  _redirects
+  robots.txt
+  sitemap.xml
+
+Do not use:
+
+  styles.css
+  main.js
+  css/style.css
+  js/main.js
+
+Those legacy files were removed from the canonical site.
+
+Deploy:
+
+  Host: Netlify recommended
+  Build command: none
+  Publish directory: .
+  Form name: access-request
+
+Key checks:
+
+  / loads
+  /contact.html submits to /thank-you.html
+  /assessment.html redirects to /roadmap.html
+  /products.html redirects to /toolkit.html
+  /consulting.html redirects to /coaching.html
+
+Read:
+
+  README.md
+  DEPLOYMENT.md
+  LOCAL_TESTING.md
+  IMPLEMENTATION_GUIDE.md

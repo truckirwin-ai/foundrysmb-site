@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#11100c"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#ff5a1f" stroke-width="0.75" opacity="0.55"/>
+  <!-- Left figure -->
+  <circle cx="22" cy="22" r="5" fill="#f5f1e8"/>
+  <path d="M14 46 L14 36 C14 32 18 30 22 30 C26 30 30 32 30 36 L30 46 Z" fill="#f5f1e8"/>
+  <!-- Right figure -->
+  <circle cx="42" cy="22" r="5" fill="#f5f1e8"/>
+  <path d="M34 46 L34 36 C34 32 38 30 42 30 C46 30 50 32 50 36 L50 46 Z" fill="#f5f1e8"/>
+  <!-- Ignition point between -->
+  <circle cx="32" cy="36" r="2.5" fill="#ffd35a"/>
+  <circle cx="32" cy="56.5" r="1.6" fill="#ffd35a"/>
+</svg>

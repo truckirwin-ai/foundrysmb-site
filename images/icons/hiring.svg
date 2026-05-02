@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#11100c"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#ff5a1f" stroke-width="0.75" opacity="0.55"/>
+  <!-- Crucible vessel -->
+  <path d="M16 32 L48 32 L42 50 L22 50 Z" fill="#f5f1e8"/>
+  <!-- Arrow descending into the vessel -->
+  <line x1="32" y1="14" x2="32" y2="28" stroke="#f5f1e8" stroke-width="3" stroke-linecap="square"/>
+  <path d="M26 22 L32 28 L38 22" fill="none" stroke="#f5f1e8" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- Molten content inside the crucible -->
+  <ellipse cx="32" cy="34" rx="14" ry="2" fill="#ffd35a"/>
+  <circle cx="32" cy="56.5" r="1.6" fill="#ffd35a"/>
+</svg>

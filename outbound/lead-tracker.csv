@@ -1,0 +1,26 @@
+Lead Slot,Vertical,Target Role,Workflow Pain Signal,Personalization Source,Fit Score,Next Action
+Lead Slot 01,Specialty contractor,Owner,Bid follow-up and estimate prep,Website service pages and quote CTA,High,Find owner email and send Template B
+Lead Slot 02,Remodeling contractor,Owner,Project intake scattered across forms and calls,Website contact flow,High,Send workflow leak note
+Lead Slot 03,HVAC service company,GM,Lead triage and dispatch handoff,Google Business profile and service area,High,Send Template A
+Lead Slot 04,Commercial cleaning company,Owner,Recurring proposal and staffing handoff,Website quote page,Medium,Find LinkedIn contact
+Lead Slot 05,Landscaping company,Owner,Seasonal estimate volume and follow-up,Website gallery and quote form,High,Send Template B adapted
+Lead Slot 06,IT services firm,Founder,Ticket report and client update burden,Services page,Medium,Send Template C
+Lead Slot 07,Managed bookkeeping firm,Owner,Client document intake and monthly reporting,Website process page,High,Send Template A
+Lead Slot 08,Training company,Founder,Content repurposing and cohort follow-up,Course catalog,Medium,Send content workflow note
+Lead Slot 09,Safety consultant,Owner,Inspection reports and compliance docs,Services page,High,Send Template C
+Lead Slot 10,Architecture studio,Principal,Proposal assembly and project context,Portfolio and contact page,Medium,Send proposal workflow note
+Lead Slot 11,Engineering consultant,Principal,Report generation and QA review,Services page,High,Send Template C
+Lead Slot 12,Marketing agency,Founder,Client reporting and SOPs,Case studies page,Medium,Send report workflow note
+Lead Slot 13,Accounting firm,Partner,Client intake and missing docs,Website tax prep flow,High,Send intake workflow note
+Lead Slot 14,Recruiting firm,Owner,Candidate screening and client updates,Job listings page,Medium,Send Template A
+Lead Slot 15,Property management firm,Owner,Maintenance triage and owner reports,Website tenant portal,High,Send Template C
+Lead Slot 16,Commercial real estate broker,Principal,Lead follow-up and property briefs,Listings page,Medium,Send follow-up workflow note
+Lead Slot 17,Insurance agency,Owner,Renewal follow-up and policy comparison,Website services page,Medium,Send Template A
+Lead Slot 18,Law firm admin,Managing partner,Intake triage and document prep,Practice area pages,Low,Check compliance concerns before outreach
+Lead Slot 19,Dental office group,Practice manager,Patient follow-up and admin handoffs,Website forms,Low,Research privacy constraints first
+Lead Slot 20,Auto repair shop,Owner,Estimate follow-up and parts status,Website appointment page,Medium,Send Template A
+Lead Slot 21,Event services company,Owner,Quote generation and vendor coordination,Gallery and booking page,High,Send proposal workflow note
+Lead Slot 22,Home inspection company,Owner,Report creation and client follow-up,Sample report mention,High,Send Template C
+Lead Slot 23,Fire protection contractor,Owner,Inspection reports and service follow-up,Services page,High,Send Template C
+Lead Slot 24,Sign shop,Owner,Quote intake and proof approval,Portfolio and quote form,Medium,Send Template A
+Lead Slot 25,Industrial supplier,Sales manager,RFQ response and follow-up,Product pages,High,Send bid desk note

@@ -1,0 +1,11 @@
+.DS_Store
+*.zip
+.mc-*.json
+Body of Work/
+
+# Local editor and deploy leftovers
+.vscode/
+.idea/
+node_modules/
+dist/
+build/

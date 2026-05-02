@@ -1,0 +1,48 @@
+LOCAL TESTING
+
+Start:
+
+  cd "/Users/truckirwin/Desktop/Foundry SMB/foundrysmb-site"
+  python3 -m http.server 8000
+
+Open:
+
+  http://localhost:8000
+
+Check:
+
+  /
+  /roadmap.html
+  /toolkit.html
+  /coaching.html
+  /how-it-works.html
+  /about.html
+  /contact.html
+  /thank-you.html
+  /support.html
+  /terms.html
+  /privacy.html
+  /refunds.html
+  /acceptable-use.html
+  /license.html
+
+Old URLs:
+
+  /assessment.html -> /roadmap.html
+  /products.html -> /toolkit.html
+  /consulting.html -> /coaching.html
+  /bid-automation.html -> /toolkit.html
+  /context-vaults.html -> /toolkit.html
+  /permitting-navigator.html -> /toolkit.html
+  /autonomous-departments.html -> /toolkit.html
+  /industries.html -> /about.html
+  /case-studies.html -> /about.html
+
+Form:
+
+  /contact.html?interest=roadmap
+  /contact.html?interest=toolkit
+  /contact.html?interest=coaching-1on1
+  /contact.html?interest=coaching-cohort
+
+Submit locally and confirm /thank-you.html loads.

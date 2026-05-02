@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#11100c"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#ff5a1f" stroke-width="0.75" opacity="0.55"/>
+  <!-- Driver / mouth -->
+  <circle cx="22" cy="32" r="6" fill="#f5f1e8"/>
+  <!-- Horn -->
+  <path d="M22 26 L46 16 L46 48 L22 38 Z" fill="#f5f1e8"/>
+  <!-- Burst lines -->
+  <line x1="50" y1="22" x2="56" y2="20" stroke="#ffd35a" stroke-width="2" stroke-linecap="square"/>
+  <line x1="50" y1="32" x2="56" y2="32" stroke="#ffd35a" stroke-width="2" stroke-linecap="square"/>
+  <line x1="50" y1="42" x2="56" y2="44" stroke="#ffd35a" stroke-width="2" stroke-linecap="square"/>
+  <circle cx="32" cy="56.5" r="1.6" fill="#ffd35a"/>
+</svg>

@@ -1,0 +1,14 @@
+Input,Value,Notes
+Workflow name,,Example: bid follow-up
+Cycles per month,,How often this workflow happens
+Minutes saved per cycle,,Conservative estimate
+Hourly value of operator time,,Use fully loaded cost or owner value
+Monthly time savings value,=B2*B3/60*B4,Spreadsheet formula when opened in Excel/Sheets
+Missed opportunities recovered per month,,Example: 1
+Average gross profit per recovered opportunity,,Use gross profit not revenue where possible
+Monthly revenue/gross profit impact,=B6*B7,Spreadsheet formula when opened in Excel/Sheets
+Monthly total impact,=B5+B8,Time value plus recovered gross profit
+Sprint price,1500,Launch sprint price
+Payback months,=B10/B9,Lower is better
+Install estimate low,5000,Optional system install
+Install estimate high,15000,Optional system install
