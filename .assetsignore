@@ -1,0 +1,17 @@
+.git
+.gitignore
+.mc-*
+Body of Work
+deploy-*.zip
+scripts
+*.md
+*.txt
+sales-assets
+support-packs
+digital-products
+outbound
+content
+agent-ops
+pod
+wrangler.jsonc
+.assetsignore
