@@ -94,7 +94,7 @@ The visual direction is dark foundry-floor editorial:
 - Inter Tight for body and UI copy
 - JetBrains Mono for labels and operational detail
 - warm black, cream, molten orange, yellow, and plum accents
-- glass panels, bento layouts, image-treated heroes, and grain texture
+- sharp panels, structured grids, image-led proof, and restrained texture
 
 ## Current Content Model
 

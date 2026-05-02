@@ -5,53 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book the AI Revenue Sprint · Foundry SMB</title>
   <meta name="description" content="Apply for the $1,500 AI Revenue Sprint. Tell Foundry SMB which workflow is wasting time or money and what outcome you want in five business days.">
-  <meta name="theme-color" content="#14110d">
+  <meta name="theme-color" content="#f7f7f3">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="design-system.css">
 </head>
-<body>
+<body class="enterprise-home inner-page contact-page">
 <a href="#main" class="skip-link">Skip to content</a>
 <header class="site-header">
   <div class="site-header__inner">
     <a href="index.html" class="brand">Foundry<span class="ampersand">·</span>SMB</a>
     <nav class="site-nav" aria-label="Primary">
-      <a href="roadmap.html">Sprint</a>
-      <span class="sep">/</span>
-      <a href="how-it-works.html">Process</a>
-      <span class="sep">/</span>
       <a href="toolkit.html">Toolkit</a>
-      <span class="sep">/</span>
       <a href="coaching.html">Coaching</a>
-      <span class="sep">/</span>
       <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="roadmap.html">Revenue Sprint</a>
+      <a href="contact.html" aria-current="page">Book</a>
     </nav>
   </div>
 </header>
 <main id="main">
 
-<section class="hero hero--bg" style="--hero-bg: url('images/foundry-pour.jpg');">
-  <div class="hero__bg"></div>
-  <div class="hero__mesh"></div>
-  <div class="container hero__content">
-    <div class="grid-12">
-      <div class="col-1-8">
-        <p class="eyebrow"><span class="num">C ·</span> Revenue Sprint application</p>
-        <h1 class="display hero__display mt-5">Show me the workflow. <em>I will tell you if it can pay.</em></h1>
-        <p class="lead hero__lead">$1,500 launch sprint. Five business days. One workflow diagnosed, mapped, and prototyped into an AI-assisted operating system.</p>
-      </div>
+<section class="inner-hero inner-hero--foundry">
+  <div class="container inner-hero__grid">
+    <div>
+      <p class="eyebrow">Revenue Sprint application</p>
+      <h1>Show me the workflow. I will tell you if it can pay.</h1>
+      <p class="enterprise-lead">$1,500 launch sprint. Five business days. One workflow diagnosed, mapped, and prototyped into an AI-assisted operating system.</p>
     </div>
+    <figure class="inner-media">
+      <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1000&amp;q=80&amp;auto=format&amp;fit=crop" alt="Shipping containers in a logistics yard">
+      <figcaption>The best applications include one real workflow example.</figcaption>
+    </figure>
   </div>
 </section>
 
-<section class="section">
+<section class="section enterprise-section enterprise-section--light">
   <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Qualified lead form</p>
+      <h2>Start with the money leak.</h2>
+    </div>
     <div class="grid-12">
       <div class="col-1-7">
-        <p class="eyebrow"><span class="num">C.1 ·</span> Qualified lead form</p>
-        <h2 class="display mt-5">Start with the money leak.</h2>
-        <p class="lead mt-5">This form is built to decide whether the sprint is worth doing. Strong fits get a direct reply with call times and a focused discovery agenda.</p>
+        <p class="enterprise-copy">This form is built to decide whether the sprint is worth doing. Strong fits get a direct reply with call times and a focused discovery agenda.</p>
 
         <form name="revenue-sprint-application" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thank-you.html" class="form-stack mt-7">
           <input type="hidden" name="form-name" value="revenue-sprint-application">
@@ -62,7 +61,8 @@
             <div class="field-radios" id="interest-radios">
               <label><input type="radio" name="interest" value="revenue-sprint" checked><span>AI Revenue Sprint<span class="desc">$1,500, five business days</span></span></label>
               <label><input type="radio" name="interest" value="system-install"><span>AI System Install<span class="desc">$5K-$15K implementation</span></span></label>
-              <label><input type="radio" name="interest" value="toolkit"><span>Foundry Toolkit<span class="desc">Templates, prompt packs, playbooks</span></span></label>
+              <label><input type="radio" name="interest" value="managed-ops"><span>Managed AI Ops<span class="desc">$1.5K-$5K/month after value is proven</span></span></label>
+              <label><input type="radio" name="interest" value="toolkit"><span>Foundry Toolkit<span class="desc">Free templates, prompt packs, playbooks</span></span></label>
               <label><input type="radio" name="interest" value="coaching-1on1"><span>Coaching add-on<span class="desc">Decision support and operating cadence</span></span></label>
             </div>
           </fieldset>
@@ -135,10 +135,10 @@
             </select>
           </div>
 
-          <fieldset class="field">
-            <legend><label>Budget confirmation <span class="req">required</span></label></legend>
-            <div class="field-radios">
-              <label><input type="checkbox" name="budget_confirmation" value="I understand the launch sprint is $1500." required><span>I understand the launch sprint is $1,500.</span></label>
+          <fieldset class="field field--plain" id="budget-field">
+            <legend><label id="budget-label">Budget confirmation <span class="req">required</span></label></legend>
+            <div class="field-radios field-radios--single">
+              <label><input id="budget-confirmation" type="checkbox" name="budget_confirmation" value="I understand the launch sprint is $1500." required><span id="budget-copy">I understand the launch sprint is $1,500.</span></label>
             </div>
           </fieldset>
 
@@ -151,12 +151,14 @@
       </div>
 
       <aside class="col-9-12">
-        <p class="eyebrow"><span class="num">C.2 ·</span> Fit filter</p>
-        <h3 class="display mt-5">Best sprint candidates have a workflow that already costs money.</h3>
+        <div class="decision-panel">
+        <p class="eyebrow">Fit filter</p>
+        <h3>Best candidates have a workflow that already costs money.</h3>
         <ul class="checklist mt-6">
           <li><strong>Good fit:</strong> proposals, estimates, lead follow-up, reporting, SOPs, onboarding, inbox triage, knowledge capture.</li>
           <li><strong>Good fit:</strong> owner-led teams that can make a decision this week and give access to examples.</li>
-          <li><strong>Bad fit:</strong> vague AI curiosity, no real workflow owner, no time to review the prototype.</li>
+          <li><strong>Good fit:</strong> teams that want the free tools first and can name the workflow they plan to inspect.</li>
+          <li><strong>Bad fit:</strong> vague AI curiosity, no real workflow owner, no time to review the prototype or tools.</li>
         </ul>
         <dl class="deflist mt-7">
           <dt>Email</dt>
@@ -166,6 +168,7 @@
           <dt>Reply window</dt>
           <dd>Within 48 hours, faster for urgent fits.</dd>
         </dl>
+        </div>
       </aside>
     </div>
   </div>
@@ -175,17 +178,74 @@
   (function() {
     var params = new URLSearchParams(window.location.search);
     var interest = params.get('interest');
-    if (!interest) return;
-    var radio = document.querySelector('input[name="interest"][value="' + interest + '"]');
+    var radio = interest ? document.querySelector('input[name="interest"][value="' + interest + '"]') : null;
     if (radio) radio.checked = true;
   })();
 
   (function() {
-    if (!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname)) return;
+    var radios = Array.prototype.slice.call(document.querySelectorAll('input[name="interest"]'));
+    var budgetField = document.getElementById('budget-field');
+    var budgetCheckbox = document.getElementById('budget-confirmation');
+    var budgetCopy = document.getElementById('budget-copy');
+    var budgetLabel = document.getElementById('budget-label');
+    var submitButton = document.querySelector('button[type="submit"]');
+    var form = document.querySelector('form[name="revenue-sprint-application"]');
+    if (!radios.length || !budgetField || !budgetCheckbox || !budgetCopy || !submitButton || !form) return;
+
+    function selectedInterest() {
+      var selected = radios.find(function(radio) { return radio.checked; });
+      return selected ? selected.value : 'revenue-sprint';
+    }
+
+    function updateFormForIntent() {
+      var interest = selectedInterest();
+      budgetField.hidden = false;
+      budgetCheckbox.required = true;
+      submitButton.innerHTML = 'Submit Sprint Application <span class="cta__arrow">→</span>';
+      budgetLabel.innerHTML = 'Budget confirmation <span class="req">required</span>';
+      budgetCheckbox.value = 'I understand the launch sprint is $1500.';
+      budgetCopy.textContent = 'I understand the launch sprint is $1,500.';
+      form.setAttribute('action', 'thank-you.html');
+
+      if (interest === 'toolkit') {
+        budgetCheckbox.required = false;
+        budgetCheckbox.checked = false;
+        budgetField.hidden = true;
+        submitButton.innerHTML = 'Request Free Toolkit <span class="cta__arrow">→</span>';
+        form.setAttribute('action', 'thank-you-toolkit.html');
+      } else if (interest === 'managed-ops') {
+        budgetCheckbox.value = 'I understand Managed AI Ops starts after a sprint or install and is a monthly paid engagement.';
+        budgetCopy.textContent = 'I understand Managed AI Ops is a monthly paid engagement after value is proven.';
+        submitButton.innerHTML = 'Discuss Managed Ops <span class="cta__arrow">→</span>';
+      } else if (interest === 'system-install') {
+        budgetCheckbox.value = 'I understand system installs are typically $5000 to $15000.';
+        budgetCopy.textContent = 'I understand system installs are typically $5K-$15K.';
+        submitButton.innerHTML = 'Discuss System Install <span class="cta__arrow">→</span>';
+      } else if (interest === 'coaching-1on1') {
+        budgetCheckbox.required = false;
+        budgetField.hidden = true;
+        submitButton.innerHTML = 'Ask About Coaching <span class="cta__arrow">→</span>';
+      }
+    }
+
+    radios.forEach(function(radio) {
+      radio.addEventListener('change', updateFormForIntent);
+    });
+    updateFormForIntent();
+  })();
+
+  (function() {
+    if (window.location.protocol !== 'file:' && !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname)) return;
     var form = document.querySelector('form[name="revenue-sprint-application"]');
     if (!form) return;
     form.addEventListener('submit', function(event) {
       event.preventDefault();
+      var selected = document.querySelector('input[name="interest"]:checked');
+      var interest = selected ? selected.value : 'revenue-sprint';
+      if (interest === 'toolkit') {
+        window.location.href = 'thank-you-toolkit.html';
+        return;
+      }
       window.location.href = form.getAttribute('action') || 'thank-you.html';
     });
   })();
@@ -204,6 +264,7 @@
         <h4>Engage</h4>
         <ul>
           <li><a href="roadmap.html">AI Revenue Sprint</a></li>
+          <li><a href="managed-ai-ops.html">Managed AI Ops</a></li>
           <li><a href="how-it-works.html">Delivery Process</a></li>
           <li><a href="toolkit.html">Foundry Toolkit</a></li>
           <li><a href="coaching.html">Operator Coaching</a></li>

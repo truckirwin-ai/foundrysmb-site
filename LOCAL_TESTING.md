@@ -58,7 +58,7 @@ Desktop:
 - Hero image appears on homepage.
 - Header links are visible.
 - Body text does not overlap imagery.
-- Bento cards align cleanly.
+- Content grids align cleanly.
 - CTA buttons are readable.
 - Footer columns are readable.
 

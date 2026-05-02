@@ -62,7 +62,7 @@ Design:
   Dark foundry-floor editorial system.
   Source Serif 4, Inter Tight, JetBrains Mono.
   Molten orange, heat yellow, cream, plum accents.
-  Glass cards, bento layout, grain texture, treated images.
+  Sharp panels, structured grids, restrained texture, treated images.
 
 Known production note:
   Several hero images use remote Unsplash URLs. For final hardening, copy production-critical images into images/ and reference them locally.

@@ -1,0 +1,11 @@
+Dimension,Question,Score 1,Score 3,Score 5,Your Score,Notes
+Business Cost,What does this workflow cost when it is slow or wrong?,Annoying but low cost,Costs hours or creates rework,Delays revenue cash delivery or owner time,,
+Repetition,How often does this workflow happen?,Rare,Monthly or irregular,Weekly or daily,,
+Input Quality,Do useful examples and source inputs exist?,Mostly in someone's head,Some examples exist,Emails docs spreadsheets notes and examples exist,,
+Reviewability,Can a human judge whether output is good?,Hard to judge,Owner can review with effort,Clear pass/fail criteria exists,,
+Workflow Owner,Who can approve changes?,Nobody clear,Shared owner,One accountable owner,,
+Risk Level,What happens if AI output is wrong?,High customer legal financial or safety risk,Moderate risk with review,Low risk if reviewed before use,,
+Implementation Drag,How hard is the first version?,Requires major software change,Requires light tool setup,Can start with docs prompts spreadsheet or SOP,,
+Follow-On Value,Could this become an install or recurring managed workflow?,One-time cleanup,Useful if maintained,Compounding operating asset,,
+Total Score,Add scores across dimensions,,,,,
+Decision,32-40 sprint candidate; 24-31 narrow first; 16-23 self-audit; under 16 do not automate yet,,,,,

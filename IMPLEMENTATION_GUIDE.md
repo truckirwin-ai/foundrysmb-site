@@ -53,8 +53,8 @@ Visual system:
 - cream typography
 - serif display copy
 - tight operational labels
-- glass panels
-- bento cards
+- sharp panels
+- structured grids
 - treated photographic heroes
 - light grain texture
 
@@ -76,7 +76,7 @@ Tone:
 - layout primitives
 - header
 - hero variants
-- bento and glass cards
+- structured content grids
 - tables
 - forms
 - footer
