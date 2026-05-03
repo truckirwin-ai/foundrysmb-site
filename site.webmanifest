@@ -1,0 +1,24 @@
+{
+  "name": "Foundry SMB",
+  "short_name": "Foundry SMB",
+  "description": "AI Revenue Sprints and workflow systems for owner-led businesses.",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#14110d",
+  "background_color": "#14110d",
+  "display": "standalone"
+}
